@@ -35,7 +35,11 @@ Project Organization
     │   ├── data           <- Scripts to download or generate data
     │   │   └── make_dataset.py
     │   │
+    │   ├── snakefiles     <- snakemake scripts
+    │   │
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
+    │
+    ├── logs               <- Stores log files
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
 
