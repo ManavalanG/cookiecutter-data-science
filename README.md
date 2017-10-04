@@ -39,8 +39,14 @@ The directory structure of your new project looks like this:
 
 ```
     ├── LICENSE
+    │
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
+    │
     ├── README.md          <- The top-level README for developers using this project.
+    │
+    ├── configs            <- Stores snakemake configs
+    │   └── main.yaml      <- snakemake config file
+    │
     ├── data
     │   ├── external       <- Data from third party sources.
     │   ├── interim        <- Intermediate data that has been transformed.
@@ -61,13 +67,13 @@ The directory structure of your new project looks like this:
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
     │
+    ├── Snakefile          <- main snakemake file
+    │
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   │
     │   ├── data           <- Scripts to download or generate data
     │   │   └── make_dataset.py
-    │   │
-    │   ├── snakefiles     <- snakemake scripts
     │   │
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │
