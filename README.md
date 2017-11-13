@@ -56,8 +56,11 @@ The directory structure of your new project looks like this:
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    │   │                     the creator's initials, and a short `-` delimited description, e.g.
+    │   │                     `1.0-jqp-initial-data-exploration`.
+    │   │
+    │   └── exploratory    <- Jupyter notebooks that are used for exploring data
+    │                         and not yet finalized or taken decent shape
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
@@ -72,8 +75,6 @@ The directory structure of your new project looks like this:
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
     │   │
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │
