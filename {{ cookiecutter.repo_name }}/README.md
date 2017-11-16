@@ -7,8 +7,14 @@ Project Organization
 ------------
 
     ├── LICENSE
+    │
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
+    │
     ├── README.md          <- The top-level README for developers using this project.
+    │
+    ├── configs            <- Stores snakemake configs
+    │   └── main.yaml      <- snakemake config file
+    │
     ├── data
     │   ├── external       <- Data from third party sources.
     │   ├── interim        <- Intermediate data that has been transformed.
@@ -18,8 +24,11 @@ Project Organization
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    │   │                     the creator's initials, and a short `-` delimited description, e.g.
+    │   │                     `1.0-jqp-initial-data-exploration`.
+    │   │
+    │   └── exploratory    <- Jupyter notebooks that are used for exploring data
+    │                         and not yet finalized or taken decent shape
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
@@ -29,13 +38,11 @@ Project Organization
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
     │
+    ├── Snakefile          <- main snakemake file
+    │
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── snakefiles     <- snakemake scripts
     │   │
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │
