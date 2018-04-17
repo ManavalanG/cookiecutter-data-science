@@ -3,6 +3,19 @@
 
 {{cookiecutter.description}}
 
+
+
+Virtual environment
+-------------------
+`pipenv` is used to control environment.
+
+How to:
+* cd into dir
+* pipenv install - This will install all dependencies required from Pipfile
+* pipenv install [packages] - To install specific package
+* pipenv shell - This will activate vitual environment.
+* exit - To exit vitual environment
+
 Project Organization
 ------------
 
