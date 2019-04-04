@@ -9,6 +9,7 @@ name = "pypi"
 
 fire = "*"
 snakemake = "*"
+colorlog = "*"
 # click = "*"
 # sphinx # = "*"
 # coverage = "*"
